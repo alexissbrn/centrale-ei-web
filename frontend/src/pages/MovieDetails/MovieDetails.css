@@ -390,7 +390,7 @@
   text-decoration: underline;
 }
 
-/* Section debug (en mode développement) */
+/* Section debug */
 .detail-section .debug-info {
   background: rgba(255, 193, 7, 0.1);
   border: 1px solid rgba(255, 193, 7, 0.3);

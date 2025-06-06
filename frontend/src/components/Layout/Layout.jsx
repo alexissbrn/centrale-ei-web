@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
       {/* Effet de particules animées en arrière-plan */}
       <div className="Layout-particles"></div>
 
-      {/* Grille futuriste en arrière-plan */}
+      {/* Grille en arrière-plan */}
       <div className="Layout-grid"></div>
 
       {/* Header avec effet de blur */}

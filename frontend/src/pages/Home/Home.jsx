@@ -10,7 +10,6 @@ function Home() {
   const [currentPage, setCurrentPage] = useState(0);
   const moviesPerPage = 30;
 
-  // Hook modifié qui gère la recherche globale dans la BDD
   const { movies, moviesloading, movieserrror, fetchMovies } = useFetchMovies(
     sortOption,
     debouncedMovieName

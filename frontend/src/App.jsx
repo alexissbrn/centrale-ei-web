@@ -14,8 +14,7 @@ function App() {
         <Route path="users" element={<Users />} />
         <Route path="about" element={<About />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
-        <Route path="/recommendations" element={<Recommendations />} />{' '}
-        {/* Nouvelle route */}
+        <Route path="/recommendations" element={<Recommendations />} />
       </Routes>
     </Layout>
   );

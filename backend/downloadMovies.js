@@ -63,7 +63,7 @@ function getApiParams(sortOption) {
   }
 }
 
-// Fonction pour comparer deux objets film (ignore les champs null/undefined)
+// Fonction pour comparer deux objets film
 function hasMovieDataChanged(existingMovie, newMovieData) {
   const fieldsToCompare = [
     'title',

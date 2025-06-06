@@ -472,7 +472,7 @@ function MovieDetails() {
               <h1 className="movie-title">{movie.title}</h1>
 
               <div className="movie-actions">
-                {/* Bouton Like Futuriste */}
+                {/* Bouton Like */}
                 <button
                   onClick={handleLike}
                   disabled={likeLoading}
@@ -493,7 +493,7 @@ function MovieDetails() {
                   </svg>
                 </button>
 
-                {/* Bouton Dislike Futuriste */}
+                {/* Bouton Dislike */}
                 <button
                   onClick={handleDislike}
                   className={`futuristic-btn dislike-btn ${

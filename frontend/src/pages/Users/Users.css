@@ -86,7 +86,7 @@
   position: relative;
 }
 
-/* Style unifié pour TOUS les inputs */
+/* Style unifié pour tous les inputs */
 .Users-container input[type="text"],
 .Users-container input[type="email"],
 .Users-container input[type="password"],
@@ -215,7 +215,7 @@
   border-bottom: none;
 }
 
-/* Message d'erreur futuriste */
+/* Message d'erreur */
 .users-loading-error {
   background: rgba(255, 71, 87, 0.1);
   backdrop-filter: blur(15px);

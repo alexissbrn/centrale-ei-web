@@ -14,7 +14,7 @@ import {
 function About() {
   return (
     <div className="about">
-      {/* Titre principal avec effet futuriste */}
+      {/* Titre principal */}
       <div className="about-header">
         <h1>À propos de PIMP MY FILM</h1>
         <p className="about-subtitle">

@@ -1,5 +1,3 @@
-/* CSS Futuriste pour les boutons Like/Dislike */
-
 /* Container des actions du film */
 .movie-actions {
   display: flex;
@@ -8,7 +6,7 @@
   margin: 20px 0;
 }
 
-/* Bouton futuriste de base */
+/* Bouton de base */
 .futuristic-btn {
   position: relative;
   width: 60px;

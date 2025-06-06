@@ -214,7 +214,7 @@ export function useFetchMovies(sortOption = 'default', globalSearchQuery = '') {
     try {
       console.log(`Recherche dans toute la BDD: "${searchQuery}"`);
 
-      // Recherche paginée pour récupérer TOUS les résultats
+      // Recherche paginée pour récupérer tous les résultats
       const allSearchResults = [];
       let currentPage = 1;
       let hasMorePages = true;
